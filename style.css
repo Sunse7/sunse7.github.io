@@ -1,0 +1,45 @@
+body {
+  background-image: linear-gradient(to right, #000000, #003300, #000000);
+  text-align: center;
+  color: #d9d9d9;
+  font-size: 110%;
+  font-family: "lucida console";
+}
+h1 {
+  font-size: 250%;
+  color: #1a1a1a;
+}
+h2 {
+  color: #4d4d4d;
+}
+img {
+  width: 600px;
+  height: 388px;
+}
+.shadow {
+  text-shadow: 2px 2px 4px #e6e6e6;
+}
+.padding {
+  padding-top: 5%;
+}
+.product-list ul {
+  display: table;
+  margin: auto;
+  text-align: left;
+}
+footer {
+  text-align: right;
+  color: #a6a6a6;
+  padding-top: 10%;
+}
+@media only screen and (max-widht: 1000px) {
+  h2 {
+    font-size: 150%;
+  }
+  .product-list ul {
+    font-size: 150%;
+  }
+  footer {
+    font-size: 70%;
+  }
+}
